@@ -48,6 +48,9 @@ The tool generates a static HTML file in the `output/` directory with:
 - Hover tooltips with episode names and ratings
 - Analytics summary (best/worst episodes, averages)
 
+![Heatmap](assets/sample-heatmap.png)
+![Analytics](assets/sample-analytics.png)
+
 ## How It Works
 
 1. **Scraping** - Fetches the show's main page and all season pages from IMDB
@@ -72,6 +75,7 @@ imdb-classifier/
 ├── imdb_scraper.py      # Main CLI entry point + scraper logic
 ├── templates/
 │   └── ratings.html     # Jinja2 template for output
+├── assets/              # Sample output screenshots
 ├── requirements.txt     # Python dependencies
 ├── README.md            # This file
 └── output/              # Generated HTML files

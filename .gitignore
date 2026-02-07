@@ -80,5 +80,8 @@ coverage.xml
 # Generated output (re-generate with the scraper)
 output/
 
+# Original screenshots
+_asts/
+
 # Claude Code
 .claude/
